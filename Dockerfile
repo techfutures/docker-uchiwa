@@ -1,5 +1,5 @@
 FROM debian:jessie
-MAINTAINER Shane Starcher <shanestarcher@gmail.com>
+MAINTAINER Andrew Gee <agee@techfutures.co>
 
 RUN apt-get update && apt-get install -y wget ca-certificates && apt-get -y clean
 RUN wget -q http://repositories.sensuapp.org/apt/pubkey.gpg -O-  | apt-key add -
